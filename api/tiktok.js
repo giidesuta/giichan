@@ -116,7 +116,7 @@ function createDownloadUrl(url, filename) {
 
   const token = createToken(url, filename);
 
-  return "giichan/api/tiktok?download=" + encodeURIComponent(token);
+  return "api/tiktok?download=" + encodeURIComponent(token);
 }
 
 async function getTikTokData(tiktokUrl) {
